@@ -2,8 +2,13 @@
 
 ## What you should do:
 
+<<<<<<< HEAD
 1. Create a branch with your name and commit your changes to it.
 2 **To check the correct answers**: edit the README document and replace the ``[ ]`` with ``[x]`` to mark the correct answers.
+=======
+1. If you did not fork, create a branch with your name and commit your changes to it.
+2. **To check the correct answers**: edit the README document and replace the ``[ ]`` with ``[x]`` to mark the correct answers.
+>>>>>>> b5b32fde1c1fcbb017af1eacbb89c09c9ddd1b3d
 
 Question 1
 ----------
@@ -124,7 +129,7 @@ The commits C<sub>1</sub>, C<sub>2</sub>, ... are numbered in sequence, which me
 
 Question 7
 ----------
-You have three files in your working directory: `.gitignore`, `A.txt`, `B.txt` and `code.py`. The file `.gitignore` contains the following: `*.txt`. We run the following commands:
+You have four files in your working directory: `.gitignore`, `A.txt`, `B.txt` and `code.py`. The file `.gitignore` contains the following: `*.txt`. We run the following commands:
 
 1. git add *
 2. git commit -m "added all the files"
@@ -180,3 +185,12 @@ Suppose the following scenario: in the working directory, everything in up-to-da
 Is this correct? Explain why.
 no , is untracked file we have put in stage area after run the command ``git commit -m "added code.py" -a``
 
+
+Exercise 11:
+-----------
+To create a new branch and checkout to it we can use:
+
+- [x] git checkout -b "newbranch"
+- [ ] git branch -v
+- [ ] git checkout "newbranch"
+- [ ] git checkout master
